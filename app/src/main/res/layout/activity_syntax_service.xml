@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dasar"
+    android:orientation="vertical"
+    tools:context=".SyntaxIntenActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ini Merupakan Contoh Sintax Dari Service : "
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textColor="#ffff"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Terdapat dua layanan semantik berbeda yang memberi tahu sistem tentang cara mengelola aplikasi: Layanan yang dimulai memberi tahu sistem agar tetap berjalan hingga pekerjaannya selesai. Hal ini bisa jadi untuk menyinkronkan beberapa data di latar belakang atau memutar musik meskipun setelah pengguna meninggalkan aplikasi tersebut. Menyinkronkan data di latar belakang atau memutar musik juga mewakili dua jenis layanan dimulai yang berbeda, yang memodifikasi bagaimana sistem menanganinya."
+                android:layout_marginTop="100dp"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textColor="#ffff"/>
+            <ImageView
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="380dp"
+                android:src="@drawable/service"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UTS Application Sederhana</string>
+    <string name="activity">Activity</string>
+    <string name="service">Service</string>
+    <string name="broadcase">Broadcast Receivers</string>
+    <string name="content_providers">Content Providers</string>
+    <string name="inten">Inten</string>
+    <string name="komponen">Komponen Aplikasi Android</string>
+    <string name="komponen_aplikasi_android_intent">Komponen Aplikasi Android (Intent)</string>
+    <string name="syntax_inten">Contoh Syntax</string>
+</resources>

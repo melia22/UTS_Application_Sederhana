@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/dasar"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/komponen"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <Button
+            android:id="@+id/button_inten"
+            android:textColor="@color/dasar"
+            android:text="@string/inten"
+            android:background="@color/button"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="45dp"/>
+
+        <Button
+            android:id="@+id/button_providers"
+            android:text="@string/content_providers"
+            android:textColor="@color/dasar"
+            android:background="@color/button"
+            android:layout_marginTop="85dp"
+            android:layout_width="300dp"
+            android:layout_height="45dp"/>
+
+        <Button
+            android:id="@+id/button_broadcast"
+            android:background="@color/button"
+            android:textColor="@color/dasar"
+            android:text="@string/broadcase"
+            android:layout_marginTop="170dp"
+            android:layout_width="300dp"
+            android:layout_height="45dp"/>
+
+        <Button
+            android:id="@+id/button_service"
+            android:textColor="@color/dasar"
+            android:text="@string/service"
+            android:background="@color/button"
+            android:layout_marginTop="250dp"
+            android:layout_width="300dp"
+            android:layout_height="45dp"/>
+
+        <Button
+            android:id="@+id/button_activity"
+            android:textColor="@color/dasar"
+            android:text="@string/activity"
+            android:background="@color/button"
+            android:layout_marginTop="325dp"
+            android:layout_width="300dp"
+            android:layout_height="45dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+

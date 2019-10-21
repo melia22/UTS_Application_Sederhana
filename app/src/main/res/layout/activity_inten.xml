@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntenActivity"
+    android:background="@color/dasar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/tulisan"
+            android:text="Komponene Aplikasi Android (Intent)"
+            android:textSize="30dp"/>
+
+        <LinearLayout
+
+            android:layout_marginTop="160dp"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:textSize="23dp"
+                android:text="Intent digunakan untuk mengirim atau menerima sebuah perintah dari aplikasi lain. yaitu mekanisme perangkat lunak yang memungkinkan pengguna untuk mengoordinasikan fungsi berbagai aktivitas untuk mencapi tujuan aplikasi."/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_syninten"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openSyntax"
+                android:text="@string/syntax_inten"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="470dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:id="@+id/website_edittext"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:text="https://developer.android.com"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntenActivity"
+    android:background="@color/dasar">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/tulisan"
+            android:text="Komponen Aplikasi Android (Service)"
+            android:textSize="30dp"/>
+
+        <LinearLayout
+
+            android:layout_marginTop="160dp"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:textSize="23dp"
+                android:text="Service adalah komponen yang berjalan di latar belakang. Sebagai contoh, Service bisa memainkan musik di latar belakang saat pengguna berada dalam aplikasi yang berbeda, atau mungkin mengambil data melalui jaringan tanpa menghalangi interaksi pengguna dengan aktivitas."/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_synservice"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openSyntax"
+                android:text="@string/syntax_inten"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="470dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:id="@+id/website_edittext"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:text="https://developer.android.com"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dasar">#FFA07A</color>
+    <color name="jd">#FA8072</color>
+    <color name="button">#08AE9E</color>
+    <color name="tulisan">#CD5C5C</color>
+
+
+
+</resources>
